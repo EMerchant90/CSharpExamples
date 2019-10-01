@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ejazmerchant/Documents/CSharp/structs/structs/structs.csproj": {}
+    "/Users/ejazmerchant/Projects/StructsExamples/StructsExamples/StructsExamples.csproj": {}
   },
   "projects": {
-    "/Users/ejazmerchant/Documents/CSharp/structs/structs/structs.csproj": {
+    "/Users/ejazmerchant/Projects/StructsExamples/StructsExamples/StructsExamples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ejazmerchant/Documents/CSharp/structs/structs/structs.csproj",
-        "projectName": "structs",
-        "projectPath": "/Users/ejazmerchant/Documents/CSharp/structs/structs/structs.csproj",
+        "projectUniqueName": "/Users/ejazmerchant/Projects/StructsExamples/StructsExamples/StructsExamples.csproj",
+        "projectName": "StructsExamples",
+        "projectPath": "/Users/ejazmerchant/Projects/StructsExamples/StructsExamples/StructsExamples.csproj",
         "packagesPath": "/Users/ejazmerchant/.nuget/packages/",
-        "outputPath": "/Users/ejazmerchant/Documents/CSharp/structs/structs/obj/",
+        "outputPath": "/Users/ejazmerchant/Projects/StructsExamples/StructsExamples/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
