@@ -1,0 +1,11 @@
+/Users/ejazmerchant/Projects/Loops/Loops/bin/Debug/netcoreapp2.1/Loops.deps.json
+/Users/ejazmerchant/Projects/Loops/Loops/bin/Debug/netcoreapp2.1/Loops.runtimeconfig.json
+/Users/ejazmerchant/Projects/Loops/Loops/bin/Debug/netcoreapp2.1/Loops.runtimeconfig.dev.json
+/Users/ejazmerchant/Projects/Loops/Loops/bin/Debug/netcoreapp2.1/Loops.dll
+/Users/ejazmerchant/Projects/Loops/Loops/bin/Debug/netcoreapp2.1/Loops.pdb
+/Users/ejazmerchant/Projects/Loops/Loops/obj/Debug/netcoreapp2.1/Loops.csprojAssemblyReference.cache
+/Users/ejazmerchant/Projects/Loops/Loops/obj/Debug/netcoreapp2.1/Loops.csproj.CoreCompileInputs.cache
+/Users/ejazmerchant/Projects/Loops/Loops/obj/Debug/netcoreapp2.1/Loops.AssemblyInfoInputs.cache
+/Users/ejazmerchant/Projects/Loops/Loops/obj/Debug/netcoreapp2.1/Loops.AssemblyInfo.cs
+/Users/ejazmerchant/Projects/Loops/Loops/obj/Debug/netcoreapp2.1/Loops.dll
+/Users/ejazmerchant/Projects/Loops/Loops/obj/Debug/netcoreapp2.1/Loops.pdb

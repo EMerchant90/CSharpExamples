@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeBasics", "PracticeBasics\PracticeBasics.csproj", "{BB467ACA-A435-4D63-B436-F7D4A70D0D95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB467ACA-A435-4D63-B436-F7D4A70D0D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB467ACA-A435-4D63-B436-F7D4A70D0D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB467ACA-A435-4D63-B436-F7D4A70D0D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB467ACA-A435-4D63-B436-F7D4A70D0D95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
