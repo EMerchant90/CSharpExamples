@@ -1,5 +1,5 @@
 ﻿using System;
-namespace StructsExamples
+namespace structs
 {
     public struct StudentStruct
     {
@@ -13,6 +13,10 @@ namespace StructsExamples
             student1.firstName = "Shamilah";
             student1.lastName = "Merchant";
             student1.GPA = 4.0;
+
+            Console.WriteLine($"The student {student1.firstName} {student1.lastName} GPA is {student1.GPA}");
         }
     }
 }
+
+            
