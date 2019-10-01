@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ejazmerchant/Projects/StructsExamples/StructsExamples/StructsExamples.csproj",
+      "projectUniqueName": "/Users/ejazmerchant/Documents/CSharp/structs/StructsExamples/StructsExamples.csproj",
       "projectName": "StructsExamples",
-      "projectPath": "/Users/ejazmerchant/Projects/StructsExamples/StructsExamples/StructsExamples.csproj",
+      "projectPath": "/Users/ejazmerchant/Documents/CSharp/structs/StructsExamples/StructsExamples.csproj",
       "packagesPath": "/Users/ejazmerchant/.nuget/packages/",
-      "outputPath": "/Users/ejazmerchant/Projects/StructsExamples/StructsExamples/obj/",
+      "outputPath": "/Users/ejazmerchant/Documents/CSharp/structs/StructsExamples/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
