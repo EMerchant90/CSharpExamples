@@ -1,0 +1,7 @@
+D:\Projects\C#\LoopsAtWork\LoopsAtWork\bin\Debug\LoopsAtWork.exe.config
+D:\Projects\C#\LoopsAtWork\LoopsAtWork\bin\Debug\LoopsAtWork.exe
+D:\Projects\C#\LoopsAtWork\LoopsAtWork\bin\Debug\LoopsAtWork.pdb
+D:\Projects\C#\LoopsAtWork\LoopsAtWork\obj\Debug\LoopsAtWork.csprojAssemblyReference.cache
+D:\Projects\C#\LoopsAtWork\LoopsAtWork\obj\Debug\LoopsAtWork.csproj.CoreCompileInputs.cache
+D:\Projects\C#\LoopsAtWork\LoopsAtWork\obj\Debug\LoopsAtWork.exe
+D:\Projects\C#\LoopsAtWork\LoopsAtWork\obj\Debug\LoopsAtWork.pdb

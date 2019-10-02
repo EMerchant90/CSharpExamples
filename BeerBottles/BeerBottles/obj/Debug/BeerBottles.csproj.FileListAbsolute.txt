@@ -1,0 +1,7 @@
+D:\Projects\C#\BeerBottles\BeerBottles\bin\Debug\BeerBottles.exe.config
+D:\Projects\C#\BeerBottles\BeerBottles\bin\Debug\BeerBottles.exe
+D:\Projects\C#\BeerBottles\BeerBottles\bin\Debug\BeerBottles.pdb
+D:\Projects\C#\BeerBottles\BeerBottles\obj\Debug\BeerBottles.csprojAssemblyReference.cache
+D:\Projects\C#\BeerBottles\BeerBottles\obj\Debug\BeerBottles.csproj.CoreCompileInputs.cache
+D:\Projects\C#\BeerBottles\BeerBottles\obj\Debug\BeerBottles.exe
+D:\Projects\C#\BeerBottles\BeerBottles\obj\Debug\BeerBottles.pdb
