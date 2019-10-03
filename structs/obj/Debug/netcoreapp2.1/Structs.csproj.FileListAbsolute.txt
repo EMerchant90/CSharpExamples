@@ -1,0 +1,11 @@
+/Users/ejazmerchant/Documents/CSharp/Structs/bin/Debug/netcoreapp2.1/Structs.deps.json
+/Users/ejazmerchant/Documents/CSharp/Structs/bin/Debug/netcoreapp2.1/Structs.runtimeconfig.json
+/Users/ejazmerchant/Documents/CSharp/Structs/bin/Debug/netcoreapp2.1/Structs.runtimeconfig.dev.json
+/Users/ejazmerchant/Documents/CSharp/Structs/bin/Debug/netcoreapp2.1/Structs.dll
+/Users/ejazmerchant/Documents/CSharp/Structs/bin/Debug/netcoreapp2.1/Structs.pdb
+/Users/ejazmerchant/Documents/CSharp/Structs/obj/Debug/netcoreapp2.1/Structs.csprojAssemblyReference.cache
+/Users/ejazmerchant/Documents/CSharp/Structs/obj/Debug/netcoreapp2.1/Structs.csproj.CoreCompileInputs.cache
+/Users/ejazmerchant/Documents/CSharp/Structs/obj/Debug/netcoreapp2.1/Structs.AssemblyInfoInputs.cache
+/Users/ejazmerchant/Documents/CSharp/Structs/obj/Debug/netcoreapp2.1/Structs.AssemblyInfo.cs
+/Users/ejazmerchant/Documents/CSharp/Structs/obj/Debug/netcoreapp2.1/Structs.dll
+/Users/ejazmerchant/Documents/CSharp/Structs/obj/Debug/netcoreapp2.1/Structs.pdb

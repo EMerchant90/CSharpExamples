@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{793FE808-061C-4D82-BFC0-0D16C2076032}|Default">
+  <MonoDevelop.Ide.ItemProperties.StructChallengeBookReview FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmptyStruct.cs">
+    <Files>
+      <File FileName="Program.cs" Line="7" Column="10" />
+      <File FileName="EmptyStruct.cs" Line="4" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StructChallengeBookReview" expanded="True">
+            <Node name="StructChallengeBookReview" expanded="True">
+              <Node name="EmptyStruct.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

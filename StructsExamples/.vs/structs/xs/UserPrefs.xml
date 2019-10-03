@@ -1,14 +1,11 @@
-﻿<Properties StartupConfiguration="{19AFD332-1FEF-4C93-B1F0-111619E87A4A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
-    <Files>
-      <File FileName="Program.cs" Line="20" Column="45" />
-      <File FileName="Student.cs" Line="24" Column="10" />
-    </Files>
+﻿<Properties StartupConfiguration="{18737105-9F72-47A3-814A-5ACBC3590580}|Default">
+  <MonoDevelop.Ide.ItemProperties.structs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Structs" expanded="True">
-            <Node name="Structs" expanded="True">
+          <Node name="structs" expanded="True">
+            <Node name="structs" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -16,7 +13,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Structs PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

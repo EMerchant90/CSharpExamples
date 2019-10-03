@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{976F7010-AA2C-4AA9-8928-18877ADE1753}|Default">
+  <MonoDevelop.Ide.ItemProperties.StructsExamples PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StructsExamples/EmptyStruct.cs">
+    <Files>
+      <File FileName="StructsExamples/StudentStruct.cs" Line="2" Column="1" />
+      <File FileName="StructsExamples/Program.cs" Line="35" Column="1" />
+      <File FileName="StructsExamples/EmptyStruct.cs" Line="19" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StructsExamples" expanded="True">
+            <Node name="StructsExamples" expanded="True">
+              <Node name="EmptyStruct.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
