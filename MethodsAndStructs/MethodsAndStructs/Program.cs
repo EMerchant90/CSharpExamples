@@ -10,11 +10,26 @@ namespace MethodsAndStructs
     {
         static void Main()
         {
-            var service = new WebService();
-            var data = service.GetStudentProfile(100);
+            var toyo = new Car();
+            Console.WriteLine($"The speed is {toyo.Speed}");
+            toyo.Speed = 45.09;
+            Console.WriteLine($"The speed is {toyo.Speed}");
 
-            Console.WriteLine(data.student.firstName + " " + data.Item1.lastName);
-            Console.WriteLine(data.grades[0]);
+
+            //var monster = new Monster();
+            //monster.Name = "Cookie Monster";
+            //monster.Damage = 10;
+
+            //Console.WriteLine($"{monster.Name} does {monster.Damage} damage");
+            //monster.DoubleDamage = true;
+            //Console.WriteLine($"{monster.Name} does {monster.Damage} damage");
+
+
+            //var service = new WebService();
+            //var data = service.GetStudentProfile(100);
+
+            //Console.WriteLine(data.student.firstName + " " + data.Item1.lastName);
+            //Console.WriteLine(data.grades[0]);
             //var UXforVR = new BookReview();
 
             //UXforVR.SetName("UXforVR");
