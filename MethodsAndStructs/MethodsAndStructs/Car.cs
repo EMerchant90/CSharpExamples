@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MethodsAndStructs
 {
+    //properties challenge
     struct Car
     {
         public double Speed

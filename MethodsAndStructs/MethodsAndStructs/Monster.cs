@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MethodsAndStructs
 {
+    //Properties
     struct Monster
     {
         public string Name { get; set; }

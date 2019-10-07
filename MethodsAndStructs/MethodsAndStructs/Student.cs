@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MethodsAndStructs
 {
+    //methods
     struct Student
     {
         public string firstName;

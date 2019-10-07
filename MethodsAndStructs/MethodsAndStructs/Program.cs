@@ -10,10 +10,13 @@ namespace MethodsAndStructs
     {
         static void Main()
         {
-            var toyo = new Car();
-            Console.WriteLine($"The speed is {toyo.Speed}");
-            toyo.Speed = 45.09;
-            Console.WriteLine($"The speed is {toyo.Speed}");
+            var clicker = new NPC("Clicker");
+            Console.WriteLine($"This new enemy named {clicker.Name} is dangerous, luckily it's only currently at {clicker.Health}");
+
+            //var toyo = new Car();
+            //Console.WriteLine($"The speed is {toyo.Speed}");
+            //toyo.Speed = 45.09;
+            //Console.WriteLine($"The speed is {toyo.Speed}");
 
 
             //var monster = new Monster();

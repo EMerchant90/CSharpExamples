@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MethodsAndStructs
 {
+    //tuples
     struct WebService
     {
         public (Student student, int[] grades) GetStudentProfile(int id)
