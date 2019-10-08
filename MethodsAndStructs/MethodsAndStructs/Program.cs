@@ -10,8 +10,26 @@ namespace MethodsAndStructs
     {
         static void Main()
         {
-            var clicker = new NPC("Clicker");
-            Console.WriteLine($"This new enemy named {clicker.Name} is dangerous, luckily it's only currently at {clicker.Health}");
+             
+            var bigBoat = new Boat();
+            bigBoat.Name = "Titanic";
+            bigBoat.Tonnage = 46_000;
+
+            Boat? mysteriousBoat = bigBoat;
+            Boat mysteriousBoatValue = mysteriousBoat.Value; 
+            mysteriousBoatValue.Name = "Mary Celeste";
+            mysteriousBoatValue.Tonnage = 247;
+
+            Console.WriteLine($"{bigBoat.Name} - {bigBoat.Tonnage} tons");
+            Console.WriteLine($"{mysteriousBoatValue.Name} - {mysteriousBoatValue.Tonnage} tons");
+
+            mysteriousBoat = null;
+
+            Console.WriteLine($"{bigBoat.Name} - {bigBoat.Tonnage} tons");
+            Console.WriteLine($"{mysteriousBoatValue.Name} - {mysteriousBoatValue.Tonnage} tons");
+
+            //var clicker = new NPC("Clicker");
+            //Console.WriteLine($"This new enemy named {clicker.Name} is dangerous, luckily it's only currently at {clicker.Health}");
 
             //var toyo = new Car();
             //Console.WriteLine($"The speed is {toyo.Speed}");

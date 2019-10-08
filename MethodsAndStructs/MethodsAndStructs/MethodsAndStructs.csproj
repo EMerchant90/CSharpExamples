@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Boat.cs" />
     <Compile Include="BookReviewTuple.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Monster.cs" />
