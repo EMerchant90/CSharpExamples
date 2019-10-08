@@ -1,5 +1,10 @@
 ﻿using System;
-namespace StructChallengeBookReview
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MethodsAndStructs
 {
     struct BookReview
     {
@@ -15,7 +20,7 @@ namespace StructChallengeBookReview
         {
             if (score > 0 && score < 11)
             {
-               this.score = score;
+                this.score = score;
             }
         }
 
