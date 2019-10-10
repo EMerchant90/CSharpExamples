@@ -49,6 +49,7 @@
     <Compile Include="Account.cs" />
     <Compile Include="Boat.cs" />
     <Compile Include="BookReviewTuple.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Dinosaur.cs" />
     <Compile Include="InterestAccount.cs" />

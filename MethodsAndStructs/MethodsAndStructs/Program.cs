@@ -10,11 +10,17 @@ namespace MethodsAndStructs
     {
         static void Main()
         {
-            var savings = new InterestAccount();
-            savings.accountType = "savings";
-            savings.isActive = true;
-            savings.amount = 9000.7M;
-            Console.WriteLine(savings.amount);
+            var calc = new Calculator();
+            calc.Add(10,20);
+
+            var numbers = new int[] { 1, 2, 3 };
+            calc.Add(numbers);
+
+            //var savings = new InterestAccount();
+            //savings.accountType = "savings";
+            //savings.isActive = true;
+            //savings.amount = 9000.7M;
+            //Console.WriteLine(savings.amount);
 
             //var rex = new TRex();
             //rex.Name = "Luchasaurus";
