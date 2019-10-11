@@ -10,23 +10,38 @@ namespace MethodsAndStructs
     {
         static void Main()
         {
-             
-            var bigBoat = new Boat();
-            bigBoat.Name = "Titanic";
-            bigBoat.Tonnage = 46_000;
+            var calc = new Calculator();
+            calc.Add(10,20);
 
-            Boat? mysteriousBoat = bigBoat;
-            Boat mysteriousBoatValue = mysteriousBoat.Value; 
-            mysteriousBoatValue.Name = "Mary Celeste";
-            mysteriousBoatValue.Tonnage = 247;
+            var numbers = new int[] { 1, 2, 3 };
+            calc.Add(numbers);
 
-            Console.WriteLine($"{bigBoat.Name} - {bigBoat.Tonnage} tons");
-            Console.WriteLine($"{mysteriousBoatValue.Name} - {mysteriousBoatValue.Tonnage} tons");
+            //var savings = new InterestAccount();
+            //savings.accountType = "savings";
+            //savings.isActive = true;
+            //savings.amount = 9000.7M;
+            //Console.WriteLine(savings.amount);
 
-            mysteriousBoat = null;
+            //var rex = new TRex();
+            //rex.Name = "Luchasaurus";
+            //rex.Roar();
+            
+            //var bigBoat = new Boat();
+            //bigBoat.Name = "Titanic";
+            //bigBoat.Tonnage = 46_000;
 
-            Console.WriteLine($"{bigBoat.Name} - {bigBoat.Tonnage} tons");
-            Console.WriteLine($"{mysteriousBoatValue.Name} - {mysteriousBoatValue.Tonnage} tons");
+            //Boat? mysteriousBoat = bigBoat;
+            //Boat mysteriousBoatValue = mysteriousBoat.Value; 
+            //mysteriousBoatValue.Name = "Mary Celeste";
+            //mysteriousBoatValue.Tonnage = 247;
+
+            //Console.WriteLine($"{bigBoat.Name} - {bigBoat.Tonnage} tons");
+            //Console.WriteLine($"{mysteriousBoatValue.Name} - {mysteriousBoatValue.Tonnage} tons");
+
+            //mysteriousBoat = null;
+
+            //Console.WriteLine($"{bigBoat.Name} - {bigBoat.Tonnage} tons");
+            //Console.WriteLine($"{mysteriousBoatValue.Name} - {mysteriousBoatValue.Tonnage} tons");
 
             //var clicker = new NPC("Clicker");
             //Console.WriteLine($"This new enemy named {clicker.Name} is dangerous, luckily it's only currently at {clicker.Health}");
