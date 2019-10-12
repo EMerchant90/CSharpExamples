@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace MethodsAndStructs
 {
-    class WordTransformer
+    abstract class WordTransformer
     {
-        public virtual string Transform(string word)
-        {
-            return word;
-        }
+        abstract public string Transform(string word);
     }
 }
