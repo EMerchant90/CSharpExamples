@@ -10,11 +10,20 @@ namespace MethodsAndStructs
     {
         static void Main()
         {
-            var calc = new Calculator();
-            calc.Add(10,20);
+            var wordTransform = new WordTransformer();
+            var reverser = new Reverser();
+            var upperReverser = new UpperCaseReverser();
 
-            var numbers = new int[] { 1, 2, 3 };
-            calc.Add(numbers);
+            var word = "Ejaz is the best baby!";
+            Console.WriteLine($"upper reverser transform: {wordTransform.Transform(word)}");
+            Console.WriteLine($"upper reverser transform: {reverser.Transform(word)}");
+            Console.WriteLine($"upper reverser transform: {upperReverser.Transform(word)}");
+
+            //var calc = new Calculator();
+            //calc.Add(10,20);
+
+            //var numbers = new int[] { 1, 2, 3 };
+            //calc.Add(numbers);
 
             //var savings = new InterestAccount();
             //savings.accountType = "savings";

@@ -8,5 +8,9 @@ namespace MethodsAndStructs
 {
     class WordTransformer
     {
+        public virtual string Transform(string word)
+        {
+            return word;
+        }
     }
 }

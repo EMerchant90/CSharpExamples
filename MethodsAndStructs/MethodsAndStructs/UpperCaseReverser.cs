@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace MethodsAndStructs
 {
-    class UpperCaseReverser
+    class UpperCaseReverser : Reverser
     {
+        public override string Transform(string word)
+        {
+            var newWord = base.Transform(word);
+            return newWord.ToUpper();
+        }
     }
 }
