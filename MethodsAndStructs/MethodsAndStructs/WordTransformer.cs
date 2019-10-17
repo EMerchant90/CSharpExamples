@@ -6,8 +6,20 @@ using System.Threading.Tasks;
 
 namespace MethodsAndStructs
 {
-    abstract class WordTransformer
+    class WordTransformer
     {
-        abstract public string Transform(string word);
+
+        public string Word { get; set; }
+
+        public WordTransformer(string word)
+        {
+            Console.WriteLine("Wordtransformer constructor");
+            Word = word;
+        }
+
+        public virtual string Transform()
+        {
+            return Word;
+        }
     }
 }

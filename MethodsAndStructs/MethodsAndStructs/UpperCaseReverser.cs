@@ -8,10 +8,15 @@ namespace MethodsAndStructs
 {
     class UpperCaseReverser : Reverser
     {
-        public override string Transform(string word)
+        public UpperCaseReverser(string word) : base(word)
         {
-            var newWord = base.Transform(word);
-            return newWord.ToUpper();
+            Console.WriteLine("UpperCaseReverser constructor");
+        }
+
+        public override string Transform()
+        {
+            Word = base.Transform().ToUpper();
+            return Word;
         }
     }
 }

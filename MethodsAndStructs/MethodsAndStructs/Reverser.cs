@@ -8,16 +8,22 @@ namespace MethodsAndStructs
 {
     class Reverser : WordTransformer
     {
-        public override string Transform(string word)
+
+        public Reverser(string word) : base(word)
+        {
+            Console.WriteLine("Reverser constructor");
+        }
+        public override string Transform()
         {
             var newWord = String.Empty;
-            for (var i = 0; i < word.Length; i++)
+            for (var i = 0; i < Word.Length; i++)
             {
-                int letterIndex = (word.Length - 1) - i;
+                int letterIndex = (Word.Length - 1) - i;
                 Console.WriteLine(letterIndex);
-                newWord += word[letterIndex];
+                newWord += Word[letterIndex];
                 Console.WriteLine(newWord);
             }
+            Word = newWord;
             return newWord;
         }
     }
