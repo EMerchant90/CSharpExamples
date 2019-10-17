@@ -14,7 +14,9 @@ namespace MethodsAndStructs
             for (var i = 0; i < word.Length; i++)
             {
                 int letterIndex = (word.Length - 1) - i;
+                Console.WriteLine(letterIndex);
                 newWord += word[letterIndex];
+                Console.WriteLine(newWord);
             }
             return newWord;
         }
