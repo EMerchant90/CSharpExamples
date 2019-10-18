@@ -8,12 +8,23 @@ namespace MethodsAndStructs
 {
     class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
+            //Program.Main(new string[] { "Hello String" });
+
             var word = "Ejaz is the best baby!";
-            var upperReverser = new UpperCaseReverser(word);
+            Console.WriteLine(StringUtilities.Reverse(word));
+            Console.WriteLine(StringUtilities.Reverse(word));
+            Console.WriteLine(StringUtilities.Reverse(word));
+            Console.WriteLine(StringUtilities.Reverse(word));
+            Console.WriteLine(StringUtilities.Reverse(word));
+            Console.WriteLine(StringUtilities.Reverse(word));
+            Console.WriteLine(StringUtilities.Reverse(word));
+
+            Console.WriteLine($"The reverse method was called {StringUtilities.ReverseCount}");
+            //var upperReverser = new UpperCaseReverser(word);
             //Console.WriteLine($"upper reverser transform: {wordTransform.Transform(word)}");
-            Console.WriteLine($"upper reverser transform: {upperReverser.Transform()}");
+            //Console.WriteLine($"upper reverser transform: {upperReverser.Transform()}");
 
             //var calc = new Calculator();
             //calc.Add(10,20);
@@ -30,7 +41,7 @@ namespace MethodsAndStructs
             //var rex = new TRex();
             //rex.Name = "Luchasaurus";
             //rex.Roar();
-            
+
             //var bigBoat = new Boat();
             //bigBoat.Name = "Titanic";
             //bigBoat.Tonnage = 46_000;
