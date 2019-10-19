@@ -52,7 +52,9 @@
     <Compile Include="Calculator.cs" />
     <Compile Include="Car.cs" />
     <Compile Include="Dinosaur.cs" />
+    <Compile Include="IMovement.cs" />
     <Compile Include="InterestAccount.cs" />
+    <Compile Include="ITransformer.cs" />
     <Compile Include="Monster.cs" />
     <Compile Include="NPC.cs" />
     <Compile Include="Program.cs" />

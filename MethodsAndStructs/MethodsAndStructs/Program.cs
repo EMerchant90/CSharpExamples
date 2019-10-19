@@ -10,18 +10,25 @@ namespace MethodsAndStructs
     {
         static void Main(string[] args)
         {
+            var word = "Ejaz is the best baby!";
+            var reverser = new Reverser();
+            var upperReverse = new UpperCaseReverser();
+
+            Console.WriteLine($"{reverser.Transform(word)}");
+            Console.WriteLine($"{upperReverse.Transform(word)}");
+
             //Program.Main(new string[] { "Hello String" });
 
-            var word = "Ejaz is the best baby!";
-            Console.WriteLine(StringUtilities.Reverse(word));
-            Console.WriteLine(StringUtilities.Reverse(word));
-            Console.WriteLine(StringUtilities.Reverse(word));
-            Console.WriteLine(StringUtilities.Reverse(word));
-            Console.WriteLine(StringUtilities.Reverse(word));
-            Console.WriteLine(StringUtilities.Reverse(word));
-            Console.WriteLine(StringUtilities.Reverse(word));
+            //var word = "Ejaz is the best baby!";
+            //Console.WriteLine(StringUtilities.Reverse(word));
+            //Console.WriteLine(StringUtilities.Reverse(word));
+            //Console.WriteLine(StringUtilities.Reverse(word));
+            //Console.WriteLine(StringUtilities.Reverse(word));
+            //Console.WriteLine(StringUtilities.Reverse(word));
+            //Console.WriteLine(StringUtilities.Reverse(word));
+            //Console.WriteLine(StringUtilities.Reverse(word));
 
-            Console.WriteLine($"The reverse method was called {StringUtilities.ReverseCount}");
+            //Console.WriteLine($"The reverse method was called {StringUtilities.ReverseCount} times");
             //var upperReverser = new UpperCaseReverser(word);
             //Console.WriteLine($"upper reverser transform: {wordTransform.Transform(word)}");
             //Console.WriteLine($"upper reverser transform: {upperReverser.Transform()}");

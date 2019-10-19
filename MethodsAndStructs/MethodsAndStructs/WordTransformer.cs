@@ -8,7 +8,6 @@ namespace MethodsAndStructs
 {
     class WordTransformer
     {
-
         public string Word { get; set; }
 
         public WordTransformer(string word)

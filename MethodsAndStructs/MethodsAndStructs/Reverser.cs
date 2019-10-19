@@ -6,25 +6,34 @@ using System.Threading.Tasks;
 
 namespace MethodsAndStructs
 {
-    class Reverser : WordTransformer
+    class Reverser : ITransformer, IMovement
     {
 
-        public Reverser(string word) : base(word)
+        //public Reverser(string word) : base(word)
+        //{
+        //    Console.WriteLine("Reverser constructor");
+        //}
+        //public override 
+
+        public string Word { get; set; }
+
+        public string Transform(string word)
         {
-            Console.WriteLine("Reverser constructor");
+            throw new NotImplementedException();
         }
-        public override string Transform()
+
+        string ITransformer.Transform(string word)
         {
             var newWord = String.Empty;
-            for (var i = 0; i < Word.Length; i++)
+            for (var i = 0; i < word.Length; i++)
             {
-                int letterIndex = (Word.Length - 1) - i;
+                int letterIndex = (word.Length - 1) - i;
                 Console.WriteLine(letterIndex);
-                newWord += Word[letterIndex];
+                newWord += word[letterIndex];
                 Console.WriteLine(newWord);
             }
             Word = newWord;
-            return newWord;
+            return Word;
         }
     }
 }

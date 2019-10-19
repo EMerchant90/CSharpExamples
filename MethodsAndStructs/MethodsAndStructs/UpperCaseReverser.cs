@@ -6,17 +6,29 @@ using System.Threading.Tasks;
 
 namespace MethodsAndStructs
 {
-    class UpperCaseReverser : Reverser
+    class UpperCaseReverser : ITransformer
     {
-        public UpperCaseReverser(string word) : base(word)
-        {
-            Console.WriteLine("UpperCaseReverser constructor");
-        }
+        public string Word { get; set; }
 
-        public override string Transform()
+        public string Transform(string word)
         {
-            Word = base.Transform().ToUpper();
+            var reverser = new Reverser();
+            Word = reverser.Transform(word);
+            Word = Word.ToUpper();
             return Word;
         }
+
+
+
+        //public UpperCaseReverser(string word) : base(word)
+        //{
+        //    Console.WriteLine("UpperCaseReverser constructor");
+        //}
+
+        //public override string Transform()
+        //{
+        //    Word = base.Transform().ToUpper();
+        //    return Word;
+        //}
     }
 }
