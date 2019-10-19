@@ -11,11 +11,17 @@ namespace MethodsAndStructs
         static void Main(string[] args)
         {
             var word = "Ejaz is the best baby!";
-            var reverser = new Reverser();
-            var upperReverse = new UpperCaseReverser();
+            Reverser reverser = new Reverser();
+            var moveObject = (ITransformer)reverser;
+
+            Console.WriteLine(moveObject.Transform(word));
+            Console.WriteLine(reverser.Transform(word));
+
+
+            //var upperReverse = new UpperCaseReverser();
 
             Console.WriteLine($"{reverser.Transform(word)}");
-            Console.WriteLine($"{upperReverse.Transform(word)}");
+            //Console.WriteLine($"{upperReverse.Transform(word)}");
 
             //Program.Main(new string[] { "Hello String" });
 

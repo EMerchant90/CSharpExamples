@@ -17,10 +17,6 @@ namespace MethodsAndStructs
 
         public string Word { get; set; }
 
-        public string Transform(string word)
-        {
-            throw new NotImplementedException();
-        }
 
         string ITransformer.Transform(string word)
         {
@@ -35,5 +31,17 @@ namespace MethodsAndStructs
             Word = newWord;
             return Word;
         }
+
+        public void UndoReverse()
+        {
+
+        }
+
+
+        public string Transform(string word)
+        {
+            return "Movement transform";
+        }
+
     }
 }
